@@ -1,0 +1,22 @@
+
+//create mq mixin
+@mixin mq($size){ 
+    @media(max-width: $size + px){@content}; //@content means be whatever rules are in the @include
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
